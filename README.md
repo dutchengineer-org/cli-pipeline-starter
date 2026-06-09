@@ -18,11 +18,15 @@ The goal is not a script you run once. It is a tool another engineer can install
 
 ## Getting started
 
-1. Fork this repository
-2. Clone your fork: `git clone https://github.com/<your-username>/cli-pipeline-starter`
+1. **Fork this repository** — click **Fork** at the top of [this page](https://github.com/dutchengineer-org/cli-pipeline-starter) to create your own copy.
+2. Clone your fork:
+   ```
+   git clone https://github.com/<your-username>/cli-pipeline-starter
+   cd cli-pipeline-starter
+   ```
 3. Install dependencies: `uv sync`
-4. Run the tests: `uv run pytest`
+4. Build and run: `uv run pipeline run data/sample.csv output.csv`
 
 ## Submitting
 
-Push your completed work to your fork. Paste the repository URL into the capstone submission form in your dashboard.
+When your work is ready, paste your repository URL into the submission form on your [capstone page](https://dutchengineer.org/foundations/python-for-engineers/capstone-cli-pipeline/).
